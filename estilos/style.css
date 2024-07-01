@@ -2,7 +2,61 @@
 
 
 /* PALETA DE CORES
-    amarelo queimado #E3AC6B
-    marrom #813300
-    verde #392F0D
+    1-amarelo - queimado #E3AC6B
+    2-marrom - #532201
+    3-verde - #392F0D
 */ 
+
+:root {
+    --cor1: #E3AC6B;
+    --cor2: #532201;
+    --cor3: #392F0D; 
+    --cor4: #38481A;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body, html {
+    background-color: var(--cor4);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+   width: 100vw;
+   height: 100vh;
+}
+
+div {
+    display: block;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden; /* esconde fora da borda */ 
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
+}
+
+section#login > div#imagem {
+    background: var(--cor3) url(../imagens/portaverde.jpeg.jpg) no-repeat;
+    background-position: right center;
+    height: 200px;
+    background-size: cover;
+}
+section#login > div#form {
+    padding: 10px;
+    
+}
+
