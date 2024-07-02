@@ -50,7 +50,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: var(--cor3) url(../imagens/portaverde.jpeg.jpg) no-repeat;
+    background: var(--cor3) url(./imagens/portaverde.jpeg.jpg) no-repeat;
     background-position: right center;
     height: 200px;
     background-size: cover;
