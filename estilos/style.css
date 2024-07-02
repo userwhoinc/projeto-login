@@ -52,7 +52,7 @@ section#login > div#imagem {
     display: block;
     background: var(--cor3) url(../imagens/portaverde.jpeg.jpg) no-repeat;
     background-position: right center;
-    height: 200px;
+    height: 21vh;
     background-size: cover;
 }
 section#login > div#form {
