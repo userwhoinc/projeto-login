@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 768px) and (max-width:992px) {
+@media screen and (min-width: 768px) and (max-width:1000px) {
     body {
         background-image: linear-gradient(to bottom, #7a8d4a, #232e11);
     }
@@ -20,7 +20,7 @@
 
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width:1000px) {
     body {
         background-image: linear-gradient(to bottom, #7a8d4a, #232e11);
     }
