@@ -12,6 +12,7 @@
     --cor2: #532201;
     --cor3: #392F0D; 
     --cor4: #2d3a16;
+    --cor5: #a9bb81;
 }
 * {
     margin: 0%;
@@ -29,6 +30,7 @@ main {
     position: relative;
    width: 100vw;
    height: 100vh;
+   
 }
 
 section#login {
@@ -40,7 +42,7 @@ section#login {
 
     background-color: var(--cor1);
     width: 300px;
-    height: 500px;
+    height: 530px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
 
@@ -52,7 +54,7 @@ section#login > div#imagem {
     display: block;
     background: var(--cor3) url(../imagens/portaverde.jpeg.jpg) no-repeat;
     background-position: right center;
-    height: 21vh;
+    height: 22vh;
     background-size: cover;
 }
 section#login > div#form {
@@ -61,8 +63,70 @@ section#login > div#form {
 }
 
 div#form > h1 {
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
     margin-bottom: 10px;
 }
+
+div#form > p {
+  font-size: 14px;
+}
+
+
+label {
+    display: none;
+}
+
+div.campo {
+    margin: 4px;
+    background-color: var(--cor4);
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+div.campo > input {
+    text-align: left;
+    font-size: 15px;
+    padding-top: 4%;
+    padding-left: 4px;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    padding-right: 30px;
+}
+
+div.campo > input:hover {
+    background-color: var(--cor5);
+}
+
+div.campo > i {
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    font-size: 34px;
+}
+
+form > input#entrar {
+    display: block;
+    background-color: #658133;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+form > a {
+    display: block;
+    background-color: white;
+    padding: 5px;
+    border: #658133 solid 1px;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    color: #658133;
+    text-decoration: none;
+}
+
 
