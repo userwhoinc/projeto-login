@@ -57,7 +57,12 @@ section#login > div#imagem {
 }
 section#login > div#form {
     padding: 10px;
-    display: block;
-    
+    display: block; 
+}
+
+div#form > h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
