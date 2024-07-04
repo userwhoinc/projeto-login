@@ -74,6 +74,7 @@ div#form > p {
 
 form > div.campo {
     background-color: var(--cor4);
+    border: var(--cor4) solid;
     height: 40px;
     margin: 5px 0px;
     background-color: var(--cor4);
@@ -84,16 +85,28 @@ div.campo > label {
     display: none;
 }
 
-div.campo > input:hover {
-    background-color: var(--cor5);
-}
+
 
 div.campo > i {
     color: white;
-    margin-left: 10px;
-    margin-bottom: 0px;
-    margin-right: 10px;
-    font-size: 34px;
+    width: 40px;
+    padding: 5px;
+    font-size: 2em;
+    
+}
+
+div.campo > input {
+    background-color: var(--cor5);
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    transform: translateY(-14px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
