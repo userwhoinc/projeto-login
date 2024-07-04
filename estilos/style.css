@@ -72,26 +72,16 @@ div#form > p {
   font-size: 14px;
 }
 
-
-label {
-    display: none;
-}
-
-div.campo {
-    margin: 4px;
+form > div.campo {
     background-color: var(--cor4);
-    padding-bottom: 5px;
+    height: 40px;
+    margin: 5px 0px;
+    background-color: var(--cor4);
     border-radius: 10px;
 }
 
-div.campo > input {
-    text-align: left;
-    font-size: 15px;
-    padding-top: 4%;
-    padding-left: 4px;
-    padding-bottom: 2%;
-    border-radius: 10px;
-    padding-right: 30px;
+div.campo > label {
+    display: none;
 }
 
 div.campo > input:hover {
@@ -99,34 +89,47 @@ div.campo > input:hover {
 }
 
 div.campo > i {
+    color: white;
     margin-left: 10px;
     margin-bottom: 0px;
     margin-right: 10px;
     font-size: 34px;
 }
 
-form > input#entrar {
+form > input[type=submit] {
     display: block;
     background-color: #658133;
-    font-size: 18px;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
     padding: 10px;
     text-align: center;
+    border: none;
     border-radius: 10px;
-    padding-left: 110px;
-    padding-right: 110px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover {
+    background-color: #a8da54;
 }
 
-form > a {
+form > a.botao {
     display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
     background-color: white;
     padding: 5px;
     border: #658133 solid 1px;
-    font-size: 18px;
+    font-size: 1em;
     padding: 5px;
     text-align: center;
     border-radius: 10px;
     color: #658133;
     text-decoration: none;
+}
+form > a.botao:hover {
+    background-color: #a8da54;
+    color: black;
 }
 
 
