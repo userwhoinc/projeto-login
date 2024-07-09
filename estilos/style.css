@@ -31,13 +31,13 @@ main {
    width: 100vw;
    height: 100vh;
    
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items: center;
 }
 
 section#login {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden; /* esconde fora da borda */ 
 
     background-color: var(--cor1);
@@ -85,7 +85,7 @@ div.campo > label {
     display: none;
 }
 
-div.campo > i {
+div.campo > span {
     color: white;
     width: 40px;
     padding: 5px;
